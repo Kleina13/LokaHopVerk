@@ -1,8 +1,11 @@
 - name: Home
   link: /
 
-- name: About
+- name: Artist
   link: /about.html
 
-- name: Unbelievable
-  link: /unbelievable.html
+- name: Fan Clubs
+  link: /
+
+- name: About Us
+  link: /
