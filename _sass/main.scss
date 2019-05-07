@@ -1,5 +1,10 @@
+$colors: (
+    main: #FF2A19
+);
 
-
+@function color($color-name) {
+    @return map-get($colors, $color-name)
+}
 
 body, html {
     margin: 0;
