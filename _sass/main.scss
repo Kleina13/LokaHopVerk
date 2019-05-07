@@ -1,8 +1,21 @@
 body, html {
-    background: crimson;
     margin: 0;
 }
 
 .current{
     color: palegreen;
+}
+
+nav {
+    text-align: center;
+
+    a {
+        margin: 0 10px 0 10px;
+        text-decoration: none;
+        color: aqua;
+    }
+}
+
+body {
+    
 }
