@@ -1,8 +1,45 @@
+$colors: (
+    main: #FF2A19
+);
+
+@function color($color-name) {
+    @return map-get($colors, $color-name)
+}
+
 body, html {
-    background: crimson;
     margin: 0;
 }
 
 .current{
     color: palegreen;
 }
+<<<<<<< HEAD
+=======
+
+nav {
+    text-align: center;
+    padding-top: 8px;
+
+    a {
+        margin: 20px 5px 0 5px;
+        text-decoration: none;
+        color: aqua;
+        padding: 12px 8px;
+        font-size: 25px;
+    }
+}
+
+body {
+    text-align: center;
+
+    main {
+        max-width: 850px;
+        text-align: left;
+        margin: auto;
+
+        h1 {
+            margin: 8px 0 0 0;
+        }
+    }
+}
+>>>>>>> d065a4e93916c5215024441ad31891af42c85e05
