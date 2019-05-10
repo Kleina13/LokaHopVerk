@@ -1,6 +1,5 @@
 $colors: (
-    main: #FF2A19,
-    sec: #FF2A19
+    main: #FF2A19
 );
 
 @function color($color-name) {
@@ -40,9 +39,4 @@ body {
             margin: 8px 0 0 0;
         }
     }
-}
-
-@keyframes nav_hover_on {
-    from{}
-    to  {}
 }
