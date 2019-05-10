@@ -10,6 +10,10 @@ body, html {
     margin: 0;
 }
 
+h1{
+    text-align: center;
+}
+
 .current{
     color: palegreen;
 }
@@ -29,7 +33,7 @@ nav {
 
 body {
     text-align: center;
-    background: skyblue;
+    background: lightcyan;
 
     main {
         max-width: 850px;
