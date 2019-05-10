@@ -7,12 +7,16 @@ $colors: (
     @return map-get($colors, $color-name)
 }
 
-body, html {
-    margin: 0;
-}
-
 .current{
     color: palegreen;
+}
+
+a {
+    margin: 20px 5px 0 5px;
+    text-decoration: none;
+    color: aqua;
+    padding: 12px 8px;
+    font-size: 25px;
 }
 
 nav {
