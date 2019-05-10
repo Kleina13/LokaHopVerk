@@ -14,7 +14,7 @@ h1{
     text-align: center;
 }
 
-.current{
+a:hover{
     color: palegreen;
 }
 
@@ -44,4 +44,17 @@ body {
             margin: 8px 0 0 0;
         }
     }
+}
+
+.spin {
+    animation: spin 1s infinite alternate ease-in-out;
+  }
+
+@keyframes spin {
+from {
+    transform:rotate(-25.5deg);
+}
+to {
+    transform:rotate(25.5deg);
+}
 }
