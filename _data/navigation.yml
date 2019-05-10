@@ -1,8 +1,8 @@
 - name: Home
-  link: https://kleina13.github.io/LokaHopVerk/
+  link: /LokaHopVerk/
 
 - name: Artist
-  link: https://kleina13.github.io/LokaHopVerk/artist
+  link: /LokaHopVerk/artist
 
 - name: Fan Clubs
   link: https://kleina13.github.io/LokaHopVerk/fan_clubs
