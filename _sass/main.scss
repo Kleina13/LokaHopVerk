@@ -1,22 +1,17 @@
 $colors: (
-    main: #FF2A19,
-    sec: #FF2A19
+    main: #FF2A19
 );
 
 @function color($color-name) {
     @return map-get($colors, $color-name)
 }
 
-.current{
-    color: palegreen;
+body, html {
+    margin: 0;
 }
 
-a {
-    margin: 20px 5px 0 5px;
-    text-decoration: none;
-    color: aqua;
-    padding: 12px 8px;
-    font-size: 25px;
+.current{
+    color: palegreen;
 }
 
 nav {
@@ -44,9 +39,4 @@ body {
             margin: 8px 0 0 0;
         }
     }
-}
-
-@keyframes nav_hover_on {
-    from{}
-    to  {}
 }
