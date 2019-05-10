@@ -48,13 +48,14 @@ body {
 
 .spin {
     animation: spin 1s infinite alternate ease-in-out;
+    text-align: center;
 }
 
 @keyframes spin {
-from {
-    transform:rotate(-25.5deg);
-}
-to {
-    transform:rotate(25.5deg);
+    from {
+        transform:rotate(-25.5deg);
+    }
+    to {
+        transform:rotate(25.5deg);
 }
 }
