@@ -10,7 +10,7 @@ title: Artist
 </picture>
 Robyn Rihanna Fenty (born February 20, 1988) is a Barbadian singer, businesswoman and actress.[3] Regarded as a pop icon and one of the most influential contemporary recording artists, Rihanna is known for embracing versatile musical styles and reinventing her image throughout her career.
 
-### Michael Buble
+### Michael Bublé
 <picture>   
     <img src="/assets/images/buble.jpg" alt="Artist2">
 </picture>
