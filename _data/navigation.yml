@@ -1,11 +1,11 @@
 - name: Home
-  link: /
+  link: /LokaHopVerk/index.html
 
 - name: Artist
-  link: /artist.html
+  link: /LokaHopVerk/artist.html
 
 - name: Fan Clubs
-  link: /fan_clubs.html
+  link: /LokaHopVerk/fan_clubs.html
 
 - name: About Us
-  link: /about.html
+  link: /LokaHopVerk/about.html
