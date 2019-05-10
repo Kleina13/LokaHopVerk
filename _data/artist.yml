@@ -1,0 +1,14 @@
+- name: bob
+  spotify: bob.spotify.com
+  instagram: bobstagram
+  image: rihanna_pic.jpg
+
+- name: bob
+  spotify: bob.spotify.com
+  instagram: bobstagram
+  image: buble.jpg
+
+- name: bob
+  spotify: bob.spotify.com
+  instagram: bobstagram
+  image: michaeljackson.jpg

@@ -21,3 +21,9 @@
         <input type="text">
     </label>
 </form>
+{% for artist in site.data.artist %}
+    {{ artist.name }}
+    {{ artist.spotify }}
+    {{ artist.instagram }}
+    <img src="../assets/images/{{ artist.images }}">
+{% endfor %}
