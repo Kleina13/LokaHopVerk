@@ -1,11 +1,11 @@
 - name: Home
-  link: LokaHopVerk/
+  link: /LokaHopVerk/
 
 - name: Artist
-  link: LokaHopVerk/artist
+  link: /LokaHopVerk/artist
 
 - name: Fan Clubs
-  link: https://kleina13.github.io/LokaHopVerk/fan_clubs
+  link: /LokaHopVerk/fan_clubs
 
 - name: About Us
-  link: https://kleina13.github.io/LokaHopVerk/about
+  link: /LokaHopVerk/about
