@@ -2,6 +2,8 @@
 layout: default
 title: FanClubs
 ---
-# This is a Fan Club page
+# Welcome to the fan club page
 
-{% include form.html %}
+<br>
+
+{% include form.md %}
