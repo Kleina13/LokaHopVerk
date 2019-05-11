@@ -91,41 +91,75 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-  }
+}
+
+input[type=tel], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+input[type=date], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+
+input[type=submit] {
+background-color: greenyellow;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: green;
+}
+
+.stuff{
+background: pink;
+}
   
-  input[type=tel], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  input[type=date], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color: greenyellow;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: green;
-  }
+.stuff ul{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 100%;
+padding-left: 0;
+}
+
+.stuff li{
+display: flex;
+flex-direction: row;
+list-style: none;
+display: inline-block;
+text-align: center;
+}
+
+.stuff a {
+padding: 0em .5em;
+text-align: center;
+grid-area: s; 
+}
+
+.toggle_input{
+    visibility: hidden;
+}
+
+.toggle_label{
+    visibility: hidden;
+}
 
 
 
