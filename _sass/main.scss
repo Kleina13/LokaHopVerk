@@ -162,112 +162,148 @@ grid-area: s;
 }
 
 @media (max-width:20em){
-    .toggle_input {
-        display: none;
-      }
-    .toggle_label,
-    .dalkar {
-    border: 1px solid #cecfd5;
-    border-radius: 6px;
+    body{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "s"
+        "hi"
+        "lor"
     }
-    .toggle_label {
-    color: #0087cc;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 18px;
-    padding: 5px 9px;
-    transition: all .15s ease;
+  
+    input{
+      visibility: visible;
     }
-    .toggle_label:hover {
-    color: #ff7b29;
+  
+    form input{
+      visibility: visible;
     }
-    .toggle_input:checked + .toggle_label {
-    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
-    color: #9799a7;
+    
+    label{
+      visibility: visible;
+    }
+  
+    label,
+    .dalkar ul {
+      border-radius: 6px;
+      background: pink;
+    }
+    label {
+      color: white;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 30px;
+      padding: 5px 9px;
+      transition: all .15s ease;
+      margin: 1em;
+    }
+    label:hover {
+      color: plum;
+    }
+    input:checked + label {
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+      color: #9799a7;
     }
     .stuff {
-    max-height: 0;
-    overflow: hidden;
-    transition: all .15s ease;
+      max-height: 0;
+      overflow: hidden;
+      transition: all .15s ease;
     }
-    .toggle_input:checked ~ .stuff {
-    max-height: 500px;
+    
+    input:checked ~ .stuff {
+      max-height: 500px;
     }
-    .dalkar {
-    list-style: none;
-    margin: 8px 0 0 0;
-    padding: 0;
-    width: 100px;
+    .dalkar ul {
+      list-style: none;
+      margin: 8px 0 0 0;
+      padding: 0;
+      width: 100px;
     }
     .dalkar li {
-    border-bottom: 1px solid #cecfd5;
+      margin-right: 2em;
+      background: pink;
     }
     .dalkar li:last-child {
-    border-bottom: 0;
+      border-bottom: 0;
     }
     .stuff a {
-    color: #0087cc;
-    display: block;
-    padding: 6px 12px;
-    text-decoration: none;
+      color: white;
+      display: block;
+      padding: 6px 12px;
+      text-decoration: none;
+      
     }
     .stuff a:hover {
-    color: #ff7b29;
+      color: plum;
     }
       
 }
 
 @media (max-width:48em){
-    .toggle_input {
-        display: none;
-      }
-    .toggle_label,
-    .dalkar {
-    border: 1px solid #cecfd5;
-    border-radius: 6px;
+  
+    input{
+      visibility: visible;
     }
-    .toggle_label {
-    color: #0087cc;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 18px;
-    padding: 5px 9px;
-    transition: all .15s ease;
+  
+    form input{
+      visibility: visible;
     }
-    .toggle_label:hover {
-    color: #ff7b29;
+    
+    label{
+      visibility: visible;
     }
-    .toggle_input:checked + .toggle_label {
-    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
-    color: #9799a7;
+  
+    label,
+    .dalkar ul {
+      border-radius: 6px;
+      background: pink;
+    }
+    label {
+      color: white;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 30px;
+      padding: 5px 9px;
+      transition: all .15s ease;
+      margin: 1em;
+    }
+    label:hover {
+      color: plum;
+    }
+    input:checked + label {
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+      color: #9799a7;
     }
     .stuff {
-    max-height: 0;
-    overflow: hidden;
-    transition: all .15s ease;
+      max-height: 0;
+      overflow: hidden;
+      transition: all .15s ease;
     }
-    .toggle_input:checked ~ .stuff {
-    max-height: 500px;
+    
+    input:checked ~ .stuff {
+      max-height: 500px;
     }
-    .dalkar {
-    list-style: none;
-    margin: 8px 0 0 0;
-    padding: 0;
-    width: 100px;
+    .dalkar ul {
+      list-style: none;
+      margin: 8px 0 0 0;
+      padding: 0;
+      width: 100px;
     }
     .dalkar li {
-    border-bottom: 1px solid #cecfd5;
+      margin-right: 2em;
+      background: pink;
     }
     .dalkar li:last-child {
-    border-bottom: 0;
+      border-bottom: 0;
     }
     .stuff a {
-    color: #0087cc;
-    display: block;
-    padding: 6px 12px;
-    text-decoration: none;
+      color: white;
+      display: block;
+      padding: 6px 12px;
+      text-decoration: none;
+      
     }
     .stuff a:hover {
-    color: #ff7b29;
+      color: plum;
     }
 }
