@@ -12,6 +12,14 @@ body, html {
     margin: 0;
 }
 
+.toggle{
+    visibility: hidden;
+}
+
+.toggle2{
+    visibility: hidden;
+}
+
 body{
     font-family: 'Pacifico', cursive;
 }
@@ -119,6 +127,115 @@ input[type=text], select, textarea {
     background-color: green;
   }
 
-.info{
-    visibility: hidden;
+
+
+@media (max-width:20em){
+    .toggle_input {
+        display: none;
+      }
+    .toggle_label,
+    .dalkar {
+    border: 1px solid #cecfd5;
+    border-radius: 6px;
+    }
+    .toggle_label {
+    color: #0087cc;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    padding: 5px 9px;
+    transition: all .15s ease;
+    }
+    .toggle_label:hover {
+    color: #ff7b29;
+    }
+    .toggle_input:checked + .toggle_label {
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+    color: #9799a7;
+    }
+    .stuff {
+    max-height: 0;
+    overflow: hidden;
+    transition: all .15s ease;
+    }
+    .toggle_input:checked ~ .stuff {
+    max-height: 500px;
+    }
+    .dalkar {
+    list-style: none;
+    margin: 8px 0 0 0;
+    padding: 0;
+    width: 100px;
+    }
+    .dalkar li {
+    border-bottom: 1px solid #cecfd5;
+    }
+    .dalkar li:last-child {
+    border-bottom: 0;
+    }
+    .stuff a {
+    color: #0087cc;
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    }
+    .stuff a:hover {
+    color: #ff7b29;
+    }
+      
+}
+
+@media (max-width:48em){
+    .toggle_input {
+        display: none;
+      }
+    .toggle_label,
+    .dalkar {
+    border: 1px solid #cecfd5;
+    border-radius: 6px;
+    }
+    .toggle_label {
+    color: #0087cc;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    padding: 5px 9px;
+    transition: all .15s ease;
+    }
+    .toggle_label:hover {
+    color: #ff7b29;
+    }
+    .toggle_input:checked + .toggle_label {
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+    color: #9799a7;
+    }
+    .stuff {
+    max-height: 0;
+    overflow: hidden;
+    transition: all .15s ease;
+    }
+    .toggle_input:checked ~ .stuff {
+    max-height: 500px;
+    }
+    .dalkar {
+    list-style: none;
+    margin: 8px 0 0 0;
+    padding: 0;
+    width: 100px;
+    }
+    .dalkar li {
+    border-bottom: 1px solid #cecfd5;
+    }
+    .dalkar li:last-child {
+    border-bottom: 0;
+    }
+    .stuff a {
+    color: #0087cc;
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    }
+    .stuff a:hover {
+    color: #ff7b29;
+    }
 }
