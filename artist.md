@@ -37,6 +37,4 @@ spotify: 3fMbdgg4jU18AjLCKBhRSm?si=Asgn8pqiTwepPrelT4VxUg
 <br>
 [Instagram](https://www.instagram.com/michaeljackson/)<br>
 [Spotify](https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm)<br>
-<audio controls>
-  <source src="assets/images/michaeljacksonsong.mp3" type="audio/mpeg">
-</audio>
+<audio src="assets/images/michaeljacksonsong.mp3" controls></audio>
