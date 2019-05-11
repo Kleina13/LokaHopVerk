@@ -12,7 +12,7 @@ Robyn Rihanna Fenty (born February 20, 1988) is a Barbadian singer, businesswoma
 <br>
 [Instagram](https://www.instagram.com/badgalriri/)<br>
 [Spotify](https://open.spotify.com/artist/5pKCCKE2ajJHZ9KAiaK11H)<br>
-### Rihanna - Diamonds <br>
+### Rihanna - Diamonds
 <audio controls><source src="assets/images/rihannasong.mp3" type="audio/mpeg"></audio><br>
 
 
@@ -34,6 +34,6 @@ Michael Joseph Jackson (August 29, 1958 – June 25, 2009) was an American singe
 <br>
 [Instagram](https://www.instagram.com/michaeljackson/)<br>
 [Spotify](https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm)<br>
-### Michael Jackson - Don’t Stop 'Til You Get Enough <br>
+### Michael Jackson - Don’t Stop 'Til You Get Enough'
 <audio src="assets/images/michaeljacksonsong.mp3" controls></audio><br>
 <br>
