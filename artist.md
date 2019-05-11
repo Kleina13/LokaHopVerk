@@ -39,3 +39,17 @@ Michael Joseph Jackson (August 29, 1958 – June 25, 2009) was an American singe
 ### Michael Jackson - Don’t Stop 'Til You Get Enough'
 <audio src="assets/images/michaeljacksonsong.mp3" controls></audio><br>
 <br>
+
+{% for artist site.data.artist %}
+## {{ artist.name }}
+<picture>   
+    <img src="assets/images/{{ artust.image }}" alt="Artist">
+</picture>
+{{ artist.info }}
+<br>
+[&#10132; Instagram](https://www.instagram.com/{{ artist.instagram }}/)<br>
+[&#10132; Spotify](https://open.spotify.com/artist/{{ artist.spotify }})<br>
+### {{ artist.name }} - {{ artist.song-name }}'
+<audio src="assets/images/{{ artist.mp3 }}" controls></audio><br>
+<br>
+{% endfor %}
