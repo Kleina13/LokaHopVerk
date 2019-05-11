@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
 $colors: (
     main: #FF2A19
@@ -22,7 +22,11 @@ body, html {
 }
 
 body{
-    font-family: 'Roboto', cursive;
+    font-family: 'Pacifico', cursive;
+
+    p {
+        font-family: 'Roboto Slab', 'cursive'
+    }
 }
 
 h1{
