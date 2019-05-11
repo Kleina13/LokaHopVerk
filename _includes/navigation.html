@@ -1,13 +1,7 @@
 <nav>
-    <input class="toggle_input" type="checkbox" id="toggle">
-    <label class="toggle_label" for="toggle">&#9776;</label>
-  <div class ="stuff" style="text-align: center;">
-    <ul class="dalkar">
-      {% for item in site.data.navigation %}
-      <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
-        {{ item.name }}
-      </a></li>
-  {% endfor %}
-  </ul>
-  </div>
+    {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+      {{ item.name }}
+    </a>
+{% endfor %}
 </nav>
