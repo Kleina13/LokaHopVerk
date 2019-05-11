@@ -4,8 +4,8 @@
 <picture><img src="assets/images/riri.jpg" alt="yass"></picture>
 <h2>Just fill in the form and you're good to go!!</h2>
 <form>
-    First name:<br>
-    <input type="text" name="firstname" required>
+    Your name:<br>
+    <input type="text" name="Your name" required>
     <br>
     Last name:<br>
     <input type="text" name="lastname" required><br>
@@ -23,7 +23,7 @@
     <input type="date" data-date="" data-date-format="DD MMMM YYYY" required><br>
     <br>
     Subject: <br>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
+    <textarea id="subject" name="subject" placeholder="Write something if you want :)" style="height:200px"></textarea><br>
     <br>
     <input type="submit" value="Submit">
   </form>
@@ -34,11 +34,9 @@
 <picture><img src="assets/images/mb.jpg" alt="queen"></picture>
 <h2>Just fill in the form and you're good to go!!</h2>
 <form>
-    First name:<br>
-    <input type="text" name="firstname" required>
+    Your name:<br>
+    <input type="text" name="Your name" required>
     <br>
-    Last name:<br>
-    <input type="text" name="lastname" required><br>
     E-mail:<br>
     <input type="text" name="mail" required><br>
     Phone number:<br>
@@ -53,7 +51,7 @@
     <input type="date" data-date="" data-date-format="DD MMMM YYYY" required><br>
     <br>
     Subject: <br>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
+    <textarea id="subject" name="subject" placeholder="Write something if you want :)" style="height:200px"></textarea><br>
     <br>
     <input type="submit" value="Submit">
   </form>
@@ -64,11 +62,9 @@
 <picture><img src="assets/images/mj.jpg" alt="slayy"></picture>
 <h2>Just fill in the form and you're good to go!!</h2>
 <form>
-    First name:<br>
-    <input type="text" name="firstname" required>
+    Your name::<br>
+    <input type="text" name="Your name" required>
     <br>
-    Last name:<br>
-    <input type="text" name="lastname" required><br>
     E-mail:<br>
     <input type="text" name="mail" required><br>
     Phone number:<br>
@@ -83,7 +79,7 @@
     <input type="date" data-date="" data-date-format="DD MMMM YYYY" required><br>
     <br>
     Subject: <br>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
+    <textarea id="subject" name="subject" placeholder="Write something if you want :)" style="height:200px"></textarea><br>
     <br>
     <input type="submit" value="Submit">
   </form>
