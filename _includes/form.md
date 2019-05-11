@@ -27,7 +27,9 @@
     <br>
     <input type="submit" value="Submit">
   </form>
-  
+  </fieldset>
+    <br>
+<fieldset>
 <h1>WANNA JOIN MICHAEL BUBLÉ FAN CLUB!?</h1>
 <picture><img src="assets/images/mb.jpg" alt="queen"></picture>
 <h2>Just fill in the form and you're good to go!!</h2>
@@ -55,7 +57,9 @@
     <br>
     <input type="submit" value="Submit">
   </form>
-
+  </fieldset>
+  <br>
+<fieldset>
 <h1>WANNA JOIN MICHAEL JACKSON FAN CLUB!?</h1>
 <picture><img src="assets/images/mj.jpg" alt="slayy"></picture>
 <h2>Just fill in the form and you're good to go!!</h2>
@@ -83,12 +87,4 @@
     <br>
     <input type="submit" value="Submit">
   </form>
-
-<nav class="info">
-{% for artist in site.data.artist %}
-    {{ artist.name }}
-    {{ artist.spotify }}
-    {{ artist.instagram }}
-    <img src="../assets/images/{{ artist.image }}" alt="">
-{% endfor %}
-</nav>
+    </fieldset>
