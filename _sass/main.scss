@@ -59,6 +59,7 @@ nav {
 
         &:hover {
             animation: nav_hover_on 1s 1 linear ease-in-out;
+            scale: 1.5;
         }
     }
 }
@@ -138,11 +139,11 @@ background-color: green;
 }
 
 @keyframes nav_hover_on {
-    from{scale: 1}
-    to  {scale: 1.5}
+    from{transform: scale(1)}
+    to  {transform: scale(1.5)}
 }
 
 @keyframes nav_hover_off {
-    from{scale: 1.5}
-    to  {scale: 1}
+    from{transform: scale(1.5)}
+    to  {transform: scale(1)}
 }
