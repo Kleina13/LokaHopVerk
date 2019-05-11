@@ -128,7 +128,7 @@ background-color: green;
 }
 
 .stuff{
-background: pink;
+    text-align: center;
 }
   
 .stuff ul{
@@ -160,8 +160,6 @@ grid-area: s;
 .toggle_label{
     visibility: hidden;
 }
-
-
 
 @media (max-width:20em){
     .toggle_input {
