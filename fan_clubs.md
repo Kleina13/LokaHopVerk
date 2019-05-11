@@ -4,4 +4,4 @@ title: FanClubs
 ---
 # This is a Fan Club page
 
-{% include form.html %}
+{% include form.md %}
