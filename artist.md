@@ -12,6 +12,9 @@ Robyn Rihanna Fenty (born February 20, 1988) is a Barbadian singer, businesswoma
 <br>
 [Instagram](https://www.instagram.com/badgalriri/)<br>
 [Spotify](https://open.spotify.com/artist/5pKCCKE2ajJHZ9KAiaK11H)<br>
+<audio controls>
+  <source src="assets/images/rihannasong.mp3" type="audio/mpeg">
+</audio>
 
 
 ## Michael Bublé
@@ -34,3 +37,6 @@ spotify: 3fMbdgg4jU18AjLCKBhRSm?si=Asgn8pqiTwepPrelT4VxUg
 <br>
 [Instagram](https://www.instagram.com/michaeljackson/)<br>
 [Spotify](https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm)<br>
+<audio controls>
+  <source src="assets/images/michaeljacksonsong.mp3" type="audio/mpeg">
+</audio>
