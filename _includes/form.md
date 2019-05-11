@@ -5,7 +5,8 @@ layout: default
 
 <div class="register">
 <fieldset>
-<h1>Who are you?</h1>
+<h1>WANNA JOIN THE RIHANNA CLUB!?</h1>
+<h2>Just fill in the form and you're good to go!!</h2>
 <form>
     First name:<br>
     <input type="text" name="firstname" required>
