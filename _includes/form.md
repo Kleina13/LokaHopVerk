@@ -46,11 +46,9 @@ layout: default
 <form>
     <legend></legend>
     <label>
-        <text></text>
         <input type="text">
     </label>
     <label>
-        <text></text>
         <input type="text">
     </label>
 </form>
