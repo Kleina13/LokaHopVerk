@@ -1,13 +1,19 @@
 ---
 layout: default
-
+title: form
 ---
 
 <div class="register">
 <fieldset>
-<h1>WANNA JOIN THE RIHANNA CLUB!?</h1>
+<h1>WANNA JOIN ONE OF OUR CLUBS!?</h1>
 <h2>Just fill in the form and you're good to go!!</h2>
 <form>
+    Which club?<br>
+    <select name="club">
+    <option value="riri">Rihanna Club</option>
+    <option value="mb">Michael Bublé</option>
+    <option value="mj">Michael Jackson</option>
+    </select>
     First name:<br>
     <input type="text" name="firstname" required>
     <br>
