@@ -161,6 +161,10 @@ label{
     visibility: hidden;
 }
 
+form input{
+    visibility: visible;
+  }
+
 @media (max-width:20em){
     body{
         display: grid;
