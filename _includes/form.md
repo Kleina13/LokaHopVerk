@@ -1,13 +1,13 @@
 <div class="register">
 <fieldset>
-<h1>WANNA JOIN ONE OF OUR CLUBS!?</h1>
+<h1>WANNA JOIN ONE OF OUR FAN CLUBS!?</h1>
 <h2>Just fill in the form and you're good to go!!</h2>
 <form>
     Which club?<br>
     <select name="club">
     <option value="riri">Rihanna Club</option>
-    <option value="mb">Michael Bublé</option>
-    <option value="mj">Michael Jackson</option>
+    <option value="mb">Michael Bublé Club</option>
+    <option value="mj">Michael Jackson Club</option>
     </select>
     First name:<br>
     <input type="text" name="firstname" required>
@@ -33,9 +33,11 @@
     <input type="submit" value="Submit">
   </form>
 
+<nav>
 {% for artist in site.data.artist %}
     {{ artist.name }}
     {{ artist.spotify }}
     {{ artist.instagram }}
     <img src="../assets/images/{{ artist.image }}" alt="">
 {% endfor %}
+</nav>
