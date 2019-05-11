@@ -33,27 +33,6 @@
     <input type="submit" value="Submit">
   </form>
 
-<form>
-    <legend></legend>
-    <label>
-
-    </label>
-</form>
-<form>
-    <legend></legend>
-    <label>
-        
-    </label>
-</form>
-<form>
-    <legend></legend>
-    <label>
-        <input type="text">
-    </label>
-    <label>
-        <input type="text">
-    </label>
-</form>
 {% for artist in site.data.artist %}
     {{ artist.name }}
     {{ artist.spotify }}
