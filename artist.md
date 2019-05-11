@@ -24,6 +24,8 @@ Michael Steven Bublé (born September 9, 1975) is a Canadian singer, songwriter,
 <br>
 [&#10132; Instagram](https://www.instagram.com/michaelbuble/)<br>
 [&#10132; Spotify](https://open.spotify.com/artist/1GxkXlMwML1oSg5eLPiAz3)<br>
+### Michael Bublé - Santa Claus Is Coming To Town
+<audio src="assets/images/bublesong.mp3" controls></audio><br>
 
 
 ## Michael Jackson
