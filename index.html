@@ -19,21 +19,5 @@ title: Hello :3
       So if you like to join one of our fan clubs, then you're welcome :).
     </h3>
     <picture><img src="assets/images/smileys.png" alt="smileyss"></picture>
-    
-    <main>
-      {% for artist site.data.artist %}
-        <h2>{{ artist.name }}</h2>
-          <picture>   
-              <img src="assets/images/{{ artust.image }}" alt="Artist">
-          </picture>
-          <p>{{ artist.info }}</p>
-          <br>
-          [&#10132; Instagram](https://www.instagram.com/{{ artist.instagram }}/)<br>
-          [&#10132; Spotify](https://open.spotify.com/artist/{{ artist.spotify }})<br>
-          <h3>{{ artist.name }} - {{ artist.song-name }}'</h3>
-          <audio src="assets/images/{{ artist.mp3 }}" controls></audio><br>
-          <br>
-        {% endfor %}
-      </main>
 </html>
 

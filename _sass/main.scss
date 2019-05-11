@@ -55,6 +55,11 @@ nav {
         color: darkblue;
         padding: 12px 8px;
         font-size: 25px;
+        animation: nav_hover_off 1s 1 linear ease-in-out;
+
+        &:hover {
+            animation: nav_hover_on 1s 1 linear ease-in-out;
+        }
     }
 }
 
@@ -130,4 +135,14 @@ cursor: pointer;
 
 input[type=submit]:hover {
 background-color: green;
+}
+
+@keyframes nav_hover_on {
+    from{scale: 1}
+    to  {scale: 1.5}
+}
+
+@keyframes nav_hover_off {
+    from{scale: 1.5}
+    to  {scale: 1}
 }
