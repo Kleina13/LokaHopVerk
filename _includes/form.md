@@ -1,8 +1,3 @@
----
-layout: default
-title: form
----
-
 <div class="register">
 <fieldset>
 <h1>WANNA JOIN ONE OF OUR CLUBS!?</h1>
