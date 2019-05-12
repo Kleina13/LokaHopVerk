@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
 $colors: (
     main: #FF2A19
@@ -21,7 +22,11 @@ body, html {
 }
 
 body{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto Slab', 'cursive';
+
+    h1, h2 {
+        font-family: 'Pacifico', cursive;
+    }
 }
 
 h1{
@@ -50,6 +55,12 @@ nav {
         color: darkblue;
         padding: 12px 8px;
         font-size: 25px;
+        animation: nav_hover_off 1s 1 linear ease-in-out;
+
+        &:hover {
+            animation: nav_hover_on 1s 1 linear ease-in-out;
+            scale: 1.5;
+        }
     }
 }
 
@@ -125,4 +136,14 @@ cursor: pointer;
 
 input[type=submit]:hover {
 background-color: green;
+}
+
+@keyframes nav_hover_on {
+    from{transform: scale(1)}
+    to  {transform: scale(1.5)}
+}
+
+@keyframes nav_hover_off {
+    from{transform: scale(1.5)}
+    to  {transform: scale(1)}
 }
