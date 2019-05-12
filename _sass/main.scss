@@ -147,3 +147,20 @@ background-color: green;
     from{transform: scale(1.5)}
     to  {transform: scale(1)}
 }
+
+.celebs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+tbody{
+a{
+text-decoration: none;
+color: #3366cc;
+font-size: 13px;
+
+li{
+    text-align: left;
+}
+}
+}
